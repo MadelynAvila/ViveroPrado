@@ -1,0 +1,57 @@
+﻿@{
+    var listaclientes = (List<ContenedorDB.Cliente>)ViewBag.Clientes;
+}
+
+<form asp-action="GuardarCliente" method="post">
+    <div class="form-group">
+        <label for="NombreCompleto">Nombre Completo:</label>
+        <input type="text"  name="NombreCompleto" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Telefono">Numero de Telefono:</label>
+        <input type="number"  name="Telefono" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cliente</button>
+</form>
+<h1>Lista de Clientes</h1>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Nombre Completo</th>
+            <th>Numero de Telefono</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in listaclientes)
+        {
+            <tr>
+                <td>@producto.NombreCompleto</td>
+                <td>@producto.Telefono</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    var creacionExito = '@TempData["CreacionExito"]';
+    var error = '@TempData["Error"]';
+    var mensaje = '@TempData["Mensaje"]';
+
+    if (creacionExito === "Si") {
+        Swal.fire({
+            title: "",
+            text: mensaje,
+            icon: "success"
+        });
+    }
+
+    if (error === "Si") {
+        Swal.fire({
+            title: "Error",
+            text: mensaje,
+            icon: "error"
+        });
+    }
+</script>

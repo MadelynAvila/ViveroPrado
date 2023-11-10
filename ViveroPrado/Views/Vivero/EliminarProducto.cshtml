@@ -1,0 +1,13 @@
+﻿@using ContenedorDB
+@{
+    Producto Detalle = new Producto();
+
+    Detalle = (Producto)ViewBag.Detalle;
+}
+<form asp-action="EditarProducto" method="post">
+    
+    
+
+    <button type="submit" class="btn btn-primary">Guardar Producto</button>
+</form>
+

@@ -1,0 +1,38 @@
+﻿
+<div class="container">
+    <h1>Iniciar Sesión</h1>
+    <form method="post" action="@Url.Action("IniciarSesion", "Home")">
+        <div class="form-group">
+            <label for="NombreUsuario">Nombre de Usuario:</label>
+            <input type="text" class="form-control" name="NombreUsuario" id="NombreUsuario" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" class="form-control" name="Contraseña" id="Contraseña" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+    </form>
+</div>
+<script>
+    var creacionExito = '@TempData["CreacionExito"]';
+    var error = '@TempData["Error"]';
+    var mensaje = '@TempData["Mensaje"]';
+
+    if (creacionExito === "Si") {
+        Swal.fire({
+            title: "",
+            text: mensaje,
+            icon: "success"
+        });
+    }
+
+    if (error === "Si") {
+        Swal.fire({
+            title: "Error",
+            text: mensaje,
+            icon: "error"
+        });
+    }
+</script>

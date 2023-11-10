@@ -1,0 +1,87 @@
+﻿@using ContenedorDB
+@{
+    List<Producto> ListaProductos = new List<Producto>();
+
+    ListaProductos = (List<Producto>)ViewBag.Mensajero;
+}
+
+<div class="container">
+    <div class ="row col-12">
+        <h2>Registrar Nuevo Producto</h2>
+        <form asp-action="GuardarProducto" method="post">
+            <div class="form-group">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Descripcion">Descripción:</label>
+                <input type="text" id="Descripcion" name="Descripcion" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Existencia">Existencia:</label>
+                <input type="number" step="any" id="Existencia" name="Existencia" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Precio">Precio:</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="number" step="any" id="Precio" name="Precio" class="form-control" required />
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Guardar Producto</button>
+        </form>
+        <h1>Lista de Productos</h1>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Existencia</th>
+                    <th>Precio</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var producto in ListaProductos)
+                {
+                    <tr>
+                        <td>@producto.Nombre</td>
+                        <td>@producto.Descripcion</td>
+                        <td>@producto.Existencia</td>
+                        <td>@producto.Precio</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+   <br/>
+   <br/>
+   
+</div>
+<script>
+    var creacionExito = '@TempData["CreacionExito"]';
+    var error = '@TempData["Error"]';
+    var mensaje = '@TempData["Mensaje"]';
+
+    if (creacionExito === "Si") {
+        Swal.fire({
+            title: "",
+            text: mensaje,
+            icon: "success"
+        });
+    }
+
+    if (error === "Si") {
+        Swal.fire({
+            title: "Error",
+            text: mensaje,
+            icon: "error"
+        });
+    }
+</script>

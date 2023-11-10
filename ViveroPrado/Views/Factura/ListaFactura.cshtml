@@ -1,0 +1,38 @@
+﻿@{
+    var ListaFactura = (List<ContenedorDB.Factura>)ViewBag.Facturas;
+    var listaclientes = (List<ContenedorDB.Cliente>)ViewBag.Clientes;
+    var ListaProductos = (List<ContenedorDB.Producto>)ViewBag.Productos;
+}
+<h1 class="mt-3">Factura</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID Factura</th>
+            <th>ID Cliente</th>
+            <th>Nombre Cliente</th>
+            <th>ID Producto</th>
+            <th>Nombre Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var factura in ListaFactura)
+        {
+            var DetalleCLiente = listaclientes.Where(x => x.IdCliente == factura.IdCliente).FirstOrDefault();
+            var DetalleProducto = ListaProductos.Where(x => x.IdProducto == factura.IdProducto).FirstOrDefault();
+            <tr>
+                <td>@factura.IdFactura</td>
+                <td>@factura.IdCliente</td>
+                <td>@DetalleCLiente.NombreCompleto</td>
+                <td>@factura.IdProducto</td>
+                <td>@DetalleProducto.Nombre</td>
+                <td>@DetalleProducto.Precio</td>
+                <td>@factura.Cantidad</td>
+                <td>@factura.Total</td>
+            </tr>
+        }
+    </tbody>
+</table>

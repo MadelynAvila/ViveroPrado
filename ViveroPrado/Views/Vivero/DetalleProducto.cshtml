@@ -1,0 +1,38 @@
+﻿@using ContenedorDB
+@{
+    Producto Detalle = new Producto();
+
+    Detalle = (Producto)ViewBag.Detalle;
+}
+<form asp-action="EditarProducto" method="post">
+    <div class="form-group">
+        <label for="IdProducto">IdProducto:</label>
+        <input type="text" id="IdProducto" name="IdProducto" value="@Detalle.IdProducto" class="form-control" required readonly />
+    </div>
+    <div class="form-group">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" value="@Detalle.Nombre" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Descripcion">Descripción:</label>
+        <input type="text" id="Descripcion" name="Descripcion" value="@Detalle.Descripcion" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Existencia">Existencia:</label>
+        <input type="number" step="any" id="Existencia" name="Existencia" value="@Detalle.Existencia" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Precio">Precio:</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <input type="number" step="any" id="Precio" name="Precio" value="@Detalle.Precio" class="form-control" required />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Producto</button>
+</form>

@@ -1,0 +1,27 @@
+﻿@using ContenedorDB
+@{
+    Cliente Detalle = new Cliente();
+
+    Detalle = (Cliente)ViewBag.Detalle;
+}
+<form asp-action="EditarRegistroCliente" method="post">
+    <div class="form-group">
+        <label for="IdCliente">ID Cliente:</label>
+        <input type="text" id="IdCliente" name="IdCliente" value="@Detalle.IdCliente" class="form-control" required readonly />
+    </div>
+    <div class="form-group">
+        <label for="NombreCompleto">Nombre Completo:</label>
+        <input type="text" id="NombreCompleto" name="NombreCompleto" value="@Detalle.NombreCompleto" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Telefono">Numero de Telefono:</label>
+        <input type="text" id="Telefono" name="Telefono" value="@Detalle.Telefono" class="form-control" required />
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary">Guardar Cliente</button>
+</form>
+
+

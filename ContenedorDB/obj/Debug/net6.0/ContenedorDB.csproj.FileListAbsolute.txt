@@ -1,0 +1,14 @@
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\bin\Debug\net6.0\ContenedorDB.deps.json
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\bin\Debug\net6.0\ContenedorDB.runtimeconfig.json
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\bin\Debug\net6.0\ContenedorDB.dll
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\bin\Debug\net6.0\ContenedorDB.pdb
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.csproj.AssemblyReference.cache
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.AssemblyInfoInputs.cache
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.AssemblyInfo.cs
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.csproj.CoreCompileInputs.cache
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.dll
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\refint\ContenedorDB.dll
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.pdb
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.genruntimeconfig.cache
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ref\ContenedorDB.dll

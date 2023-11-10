@@ -1,0 +1,64 @@
+﻿@using ContenedorDB
+@{
+    List<Producto> ListaProductos = new List<Producto>();
+
+    ListaProductos = (List<Producto>)ViewBag.Mensajero;
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Existencia</th>
+            <th>Precio</th>
+            <th>Opciones: </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in ListaProductos)
+        {
+            <tr>
+                <td>@producto.IdProducto</td>
+                <td>@producto.Nombre</td>
+                <td>@producto.Descripcion</td>
+                <td>@producto.Existencia</td>
+                <td>@producto.Precio</td>
+                <td>
+                    <form asp-controller="Vivero" asp-action="DetalleProducto" method="get">
+                        <input type="hidden" name="Id" value="@producto.IdProducto" />
+                        <button type="submit" class="btn btn-secondary">Editar</button>
+                        
+                    </form>
+                    <form asp-controller="Vivero" asp-action="EliminarProducto" method="post">
+                        <input type="hidden" name="Id" value="@producto.IdProducto" />
+                        <button type="submit" class="btn btn-secondary">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    var creacionExito = '@TempData["CreacionExito"]';
+    var error = '@TempData["Error"]';
+    var mensaje = '@TempData["Mensaje"]';
+
+    if (creacionExito === "Si") {
+        Swal.fire({
+            title: "",
+            text: mensaje,
+            icon: "success"
+        });
+    }
+
+    if (error === "Si") {
+        Swal.fire({
+            title: "Error",
+            text: mensaje,
+            icon: "error"
+        });
+    }
+</script>
