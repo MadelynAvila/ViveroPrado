@@ -2,16 +2,201 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenidos a Vivero el Prado</h1>
-    
-    <img src="https://th.bing.com/th/id/OIG.yLFiHVOfUcGboX1.3jsg?pid=ImgGn" class="img-fluid" alt="Vivero el Prado Logo" width="500" height="500">
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Banner de Bienvenida -->
+<div class="container text-center my-5">
+    <p class="lead">Encuentra las mejores plantas y flores para tu jardín</p>
+    <img src="/imagenes/Vivero.jpg" class="img-fluid" alt="Imagen Vivero" style="max-width: 400%; height: auto;">
 </div>
 
-<script>
-    function mostrarSweetAlert() {
+<!-- Sección de productos destacados -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Productos Destacados</h2>
+    <div class="row">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/imagenes/AgaveAttenuata.jpg" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Agave attenuata</h5>
+                    <p class="card-text">¡Plantas poco exigentes!</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/imagenes/Hortencia.jpg" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Hortensias</h5>
+                    <p class="card-text">Colores vibrantes para tu jardín.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/imagenes/Suculenta.jpg" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Suculentas</h5>
+                    <p class="card-text">Plantas que requieren poco riego.</p>
+                    <a href="#" class="btn btn-success">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-        Swal.fire('¡Hola!', 'Este es un ejemplo de SweetAlert en una página web.', 'success');
+<!-- Chatbot -->
+<div id="chatbot" class="chatbot-container d-none">
+    <div class="chat-header bg-success text-white p-2 d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Chatbot</h5>
+        <button class="btn-close btn-close-white" onclick="toggleChat()"></button>
+    </div>
+    <div class="chat-body p-3">
+        <div id="chat-content" class="chat-content">
+            <!-- Mensajes del chatbot -->
+            <div class="chat-message bot-message">¡Hola! ¿En qué puedo ayudarte hoy?</div>
+        </div>
+    </div>
+    <div class="chat-footer p-2">
+        <input type="text" id="chat-input" class="form-control" placeholder="Escribe tu mensaje...">
+    </div>
+</div>
+
+<!-- Botón de apertura del chatbot -->
+<button class="btn btn-success chatbot-toggle" onclick="toggleChat()">💬</button>
+
+<!-- Footer -->
+<footer class="bg-success text-white text-center py-4">
+    <p>&copy; 2023 Vivero Prado. Todos los derechos reservados.</p>
+    <p>
+        <a href="#" class="text-white me-3">Facebook</a>
+        <a href="#" class="text-white me-3">Instagram</a>
+        <a href="#" class="text-white">WhatsApp</a>
+    </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Chatbot Script -->
+<script>
+    function toggleChat() {
+        const chatbot = document.getElementById('chatbot');
+        chatbot.classList.toggle('d-none');
+    }
+
+    // Detectar tecla Enter
+    document.getElementById('chat-input').addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            sendMessage();
+        }
+    });
+
+    // Enviar mensaje y generar respuestas
+    function sendMessage() {
+        const input = document.getElementById('chat-input');
+        const message = input.value.trim();
+        if (message) {
+            const chatContent = document.getElementById('chat-content');
+            chatContent.innerHTML += `<div class="chat-message user-message">${message}</div>`;
+            input.value = '';
+
+            // Respuestas predefinidas basadas en palabras clave
+            setTimeout(() => {
+                let botReply = "Lo siento, no entiendo tu pregunta. ¿Podrías reformularla?";
+                const lowerMessage = message.toLowerCase();
+
+                if (lowerMessage.includes('hola')) {
+                    botReply = "¡Hola! ¿Cómo puedo asistirte hoy?";
+                } else if (lowerMessage.includes('ayuda')) {
+                    botReply = "Claro, ¿qué tipo de ayuda necesitas?";
+                } else if (lowerMessage.includes('precios')) {
+                    botReply = "Nuestros precios varían según el tipo de planta. Visita nuestra sección de productos para más información.";
+                } else if (lowerMessage.includes('ubicaciones')) {
+                    botReply = "Estamos ubicados en la Calle Principal 123, cerca del parque central.";
+                } else if (lowerMessage.includes('horarios')) {
+                    botReply = "Nuestro horario de atención es de lunes a viernes de 8:00 AM a 6:00 PM, y los sábados de 9:00 AM a 2:00 PM.";
+                } else if (lowerMessage.includes('descuentos')) {
+                    botReply = "Actualmente tenemos un 10% de descuento en todas nuestras suculentas. ¡Aprovecha la oferta!";
+                } else if (lowerMessage.includes('contacto')) {
+                    botReply = "Puedes contactarnos al número +502 3719-1383 o por correo a mlotzoja@miumg.edu.gt";
+                } else if (lowerMessage.includes('entrega')) {
+                    botReply = "Realizamos entregas a domicilio en un radio de 50 km desde nuestra tienda. El costo depende de la distancia.";
+                }
+
+                chatContent.innerHTML += `<div class="chat-message bot-message">${botReply}</div>`;
+                chatContent.scrollTop = chatContent.scrollHeight; // Desplazar hacia abajo
+            }, 1000);
+        }
     }
 </script>
 
+<!-- Estilos adicionales para el chatbot -->
+<style>
+    .chatbot-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chatbot-container {
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        width: 300px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .chat-header {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .chat-body {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .chat-footer {
+        border-top: 1px solid #ccc;
+    }
+
+    .chat-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .chat-message {
+        padding: 8px 12px;
+        border-radius: 20px;
+        max-width: 80%;
+    }
+
+    .user-message {
+        align-self: flex-end;
+        background-color: #dcf8c6;
+    }
+
+    .bot-message {
+        align-self: flex-start;
+        background-color: #f1f1f1;
+    }
+</style>

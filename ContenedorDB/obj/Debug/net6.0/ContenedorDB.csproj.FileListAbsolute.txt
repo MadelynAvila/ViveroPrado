@@ -12,3 +12,4 @@ C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\refint\Con
 C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.pdb
 C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.genruntimeconfig.cache
 C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ref\ContenedorDB.dll
+C:\Users\madel\source\repos\ViveroPrado\ContenedorDB\obj\Debug\net6.0\ContenedorDB.sourcelink.json

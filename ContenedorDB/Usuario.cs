@@ -14,6 +14,9 @@ namespace ContenedorDB
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; } 
         public string Nombre { get; set; }
-        public bool Loggeado { get; set; }
+        public string Contraseña { get; set; }
+        public bool Loggeado { get; set; } 
+        public bool Pagado { get; set; }
+       
     }
 }

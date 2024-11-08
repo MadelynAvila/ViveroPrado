@@ -81,9 +81,11 @@ C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\staticwebas
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\scopedcss\bundle\ViveroPrado.styles.css
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\scopedcss\projectbundle\ViveroPrado.bundle.scp.css
-C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPrado.csproj.CopyComplete
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPrado.dll
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\refint\ViveroPrado.dll
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPrado.pdb
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPrado.genruntimeconfig.cache
 C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ref\ViveroPrado.dll
+C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPrado.sourcelink.json
+C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\obj\Debug\net6.0\ViveroPr.0A2D1653.Up2Date
+C:\Users\madel\source\repos\ViveroPrado\ViveroPrado\bin\Debug\net6.0\Newtonsoft.Json.dll

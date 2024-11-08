@@ -42,6 +42,8 @@ namespace ViveroPrado.Controllers
             }
             else
             {
+                TempData["Error"] = "Si";
+                TempData["Mensaje"] = "Debe iniciar Sesion";
                 return Redirigir();
             }
         }
@@ -95,6 +97,8 @@ namespace ViveroPrado.Controllers
             }
             else
             {
+                TempData["Error"] = "Si";
+                TempData["Mensaje"] = "Debe iniciar Sesion";
                 return Redirigir();
             }
         }

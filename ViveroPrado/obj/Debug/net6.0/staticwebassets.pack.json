@@ -5,8 +5,44 @@
       "PackagePath": "staticwebassets\\ViveroPrado.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Logo.jpeg",
-      "PackagePath": "staticwebassets\\Imagenes\\Logo.jpeg"
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\AgaveAttenuata.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\AgaveAttenuata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Fondito12.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Fondito12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\FondoInicioSesion.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\FondoInicioSesion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\FondooInicioS.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\FondooInicioS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Hortencia.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Hortencia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\IconoUsers.png",
+      "PackagePath": "staticwebassets\\Imagenes\\IconoUsers.png"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Plantita.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Plantita.png"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Suculenta.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Suculenta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Vivero.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Vivero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\Imagenes\\Vivero.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Vivero.png"
     },
     {
       "Id": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\wwwroot\\css\\site.css",

@@ -1,5 +1,6 @@
 ﻿using ContenedorDB;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 using ViveroPrado.Models;
 
@@ -28,7 +29,7 @@ namespace ViveroPrado.Controllers
         {
             return RedirectToAction("Login", "Home");
         }
-        ////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////
 
         public IActionResult Index()
         {
@@ -48,22 +49,61 @@ namespace ViveroPrado.Controllers
         }
 
         [HttpPost]
-        public IActionResult IniciarSesion(string NombreUsuario, string Contraseña)
+        public async Task<IActionResult> IniciarSesion(string NombreUsuario, string Contraseña)
         {
-            if (NombreUsuario == "Madelyn" && Contraseña == "1234")
-            {
-                var Usuario = ContextoDB.Usuarios.Find(1);
-                Usuario.Loggeado = true;
-                ContextoDB.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            else
+            var captchaResponse = Request.Form["g-recaptcha-response"];
+            var secretKey = "6Le3H10qAAAAAKHQ87OtVPlN3ouPvceZ0M8OWeMz";
+
+            // Validar el token de reCAPTCHA con la API de Google
+            var httpClient = new HttpClient();
+
+            var response = await httpClient.PostAsync($"https://www.google.com/recaptcha/api/siteverify?secret={secretKey}&response={captchaResponse}", null);
+            var jsonResult = await response.Content.ReadAsStringAsync();
+            dynamic result = JObject.Parse(jsonResult);
+
+            // Verificar si el captcha fue exitoso
+            if (result.success != true)
             {
                 TempData["Error"] = "Si";
-                TempData["Mensaje"] = "Usuario Incorrecto tonto";
-                return RedirectToAction("Index");
+                TempData["Mensaje"] = "Verificacion de CAPTCHA fallida.";
+                return RedirectToAction("Login");
             }
+
+            try
+            {
+               var UsuarioEncontrado =  ContextoDB.Usuarios.Any(user => user.Nombre == NombreUsuario && user.Contraseña == Contraseña);
+
+                if (UsuarioEncontrado)
+                {
+
+                    var Usuario = ContextoDB.Usuarios.Find(1);
+                    Usuario.Loggeado = true;
+                    ContextoDB.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    TempData["Error"] = "Si";
+                    TempData["Mensaje"] = "Usuario Incorrecto";
+                    return RedirectToAction("Login");
+                }
+
+
+            }
+            catch 
+            {
+
+                TempData["Error"] = "Si";
+                TempData["Mensaje"] = "Usuario Incorrecto";
+                return RedirectToAction("Login");
+
+            }
+           
         }
+
+
+
+
 
         public IActionResult CerrarSesion()
         {
@@ -73,36 +113,10 @@ namespace ViveroPrado.Controllers
             return RedirectToAction("Login");
         }
 
+
+
         public IActionResult Privacy()
         {
-            //Cliente InstaciaCliente = new Cliente();
-
-            //InstaciaCliente.NombreCompleto = "Madelyn";
-            //InstaciaCliente.Telefono = 37291383;
-            //ContextoDB.Clientes.Add(InstaciaCliente);
-            //ContextoDB.SaveChanges();
-
-            //Producto InstanciaProducto = new Producto();
-
-            //InstanciaProducto.Nombre = "Hortencia";
-            //InstanciaProducto.Descripcion = "Azules";
-            //InstanciaProducto.Existencia = 15;
-            //InstanciaProducto.Precio = 10;
-
-            //ContextoDB.Productos.Add(InstanciaProducto);
-            //ContextoDB.SaveChanges();
-
-            //Factura InstaciaFactura = new Factura();
-
-            //InstaciaFactura.IdCliente = 1;
-            //InstaciaFactura.IdProducto = 1;
-            //InstaciaFactura.Cantidad = 25;
-            //InstaciaFactura.Total = 10.5;
-
-            //ContextoDB.Facturas.Add(InstaciaFactura);
-            //ContextoDB.SaveChanges();
-
-
             return View();
         }
 

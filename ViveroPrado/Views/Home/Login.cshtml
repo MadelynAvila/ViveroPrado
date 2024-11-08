@@ -1,21 +1,68 @@
-﻿
-<div class="container">
-    <h1>Iniciar Sesión</h1>
-    <form method="post" action="@Url.Action("IniciarSesion", "Home")">
-        <div class="form-group">
-            <label for="NombreUsuario">Nombre de Usuario:</label>
-            <input type="text" class="form-control" name="NombreUsuario" id="NombreUsuario" required>
-        </div>
+﻿<div class="container">
+    <div class="text-center">
+        <img src="/imagenes/IconoUsers.png" alt="Logo del Vivero" width="150" height="150">
+    </div>
+    <div class="text-center">
+        <h1>Iniciar Sesión</h1>
+    </div>
+    
+    <div class="login-container">
+        <form method="post" action="@Url.Action("IniciarSesion", "Home")">
+            <div class="form-group">
+                <label for="NombreUsuario">Nombre de Usuario:</label>
+                <input type="text" class="form-control" name="NombreUsuario" id="NombreUsuario" required>
+            </div>
 
-        <div class="form-group">
-            <label for="Contraseña">Contraseña:</label>
-            <input type="password" class="form-control" name="Contraseña" id="Contraseña" required>
-        </div>
+            <div class="form-group">
+                <label for="Contraseña">Contraseña:</label>
+                <input type="password" class="form-control" name="Contraseña" id="Contraseña" required>
+            </div>
 
-        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-    </form>
+            <div class="g-recaptcha" data-sitekey="6Le3H10qAAAAAL_KkQrG-KAxqCQp5geRxOugqNTm"></div>
+
+            <div class="button-container">
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                
+            </div>
+        </form>
+    </div>
 </div>
+
+<style>
+    .button-container {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        gap: 15px; /* Espacio entre los botones */
+        margin-top: 20px; /* Opcional: Espacio superior */
+    }
+    button {
+        padding: 10px 20px;
+    }
+
+    .login-container {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+</style>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
+
     var creacionExito = '@TempData["CreacionExito"]';
     var error = '@TempData["Error"]';
     var mensaje = '@TempData["Mensaje"]';

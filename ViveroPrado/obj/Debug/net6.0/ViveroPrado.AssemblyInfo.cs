@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViveroPrado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bc46fbfb6ea82c072e88ddc7ee225d1187139a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViveroPrado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViveroPrado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

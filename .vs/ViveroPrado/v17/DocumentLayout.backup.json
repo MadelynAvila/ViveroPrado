@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\viveroprado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\viveroprado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\migrations\\20231110041441_mapeocoluma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\migrations\\20231110041441_mapeocoluma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\migrations\\20241012184918_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\migrations\\20241012184918_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\migrations\\20231110041209_mapeocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\migrations\\20231110041209_mapeocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\migrations\\20231108044133_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\migrations\\20231108044133_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\dbcontextvivero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\dbcontextvivero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\contenedordb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\contenedordb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\controllers\\viverocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\controllers\\viverocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\viveroprado\\views\\factura\\listafactura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097710C7-79A3-4C98-AB11-E3E9D7D74C4B}|ViveroPrado\\ViveroPrado.csproj|solutionrelative:viveroprado\\views\\factura\\listafactura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|c:\\users\\madel\\source\\repos\\viveroprado\\contenedordb\\migrations\\20241012183950_pagado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C3BC85C-CFFE-4F22-A8AF-D458A0914645}|ContenedorDB\\ContenedorDB.csproj|solutionrelative:contenedordb\\migrations\\20241012183950_pagado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ViveroPrado\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:04:13.377Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T21:03:21.3Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241012184918_user.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20241012184918_user.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Migrations\\20241012184918_user.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20241012184918_user.cs",
+              "RelativeToolTip": "ContenedorDB\\Migrations\\20241012184918_user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:49:18.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20231110041441_MapeoColuma.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231110041441_MapeoColuma.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Migrations\\20231110041441_MapeoColuma.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231110041441_MapeoColuma.cs",
+              "RelativeToolTip": "ContenedorDB\\Migrations\\20231110041441_MapeoColuma.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:48:47.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20231110041209_MapeoCliente.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231110041209_MapeoCliente.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Migrations\\20231110041209_MapeoCliente.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231110041209_MapeoCliente.cs",
+              "RelativeToolTip": "ContenedorDB\\Migrations\\20231110041209_MapeoCliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:48:10.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20231108044133_Init.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231108044133_Init.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Migrations\\20231108044133_Init.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20231108044133_Init.cs",
+              "RelativeToolTip": "ContenedorDB\\Migrations\\20231108044133_Init.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:48:01.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241012183950_pagado.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20241012183950_pagado.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Migrations\\20241012183950_pagado.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Migrations\\20241012183950_pagado.cs",
+              "RelativeToolTip": "ContenedorDB\\Migrations\\20241012183950_pagado.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:39:50.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBContextVivero.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\DBContextVivero.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\DBContextVivero.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\DBContextVivero.cs",
+              "RelativeToolTip": "ContenedorDB\\DBContextVivero.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T18:38:43.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViveroPrado.csproj",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\ViveroPrado.csproj",
+              "RelativeDocumentMoniker": "ViveroPrado\\ViveroPrado.csproj",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\ViveroPrado.csproj",
+              "RelativeToolTip": "ViveroPrado\\ViveroPrado.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T18:35:54.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Usuario.cs",
+              "RelativeDocumentMoniker": "ContenedorDB\\Usuario.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\Usuario.cs",
+              "RelativeToolTip": "ContenedorDB\\Usuario.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T04:47:03.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViveroPrado\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:58:29.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Registro.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\Home\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Registro.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\Home\\Registro.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T08:57:52.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Program.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Program.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Program.cs",
+              "RelativeToolTip": "ViveroPrado\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:27:57.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T04:42:28.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAswKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T21:48:15.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContenedorDB.csproj",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\ContenedorDB.csproj",
+              "RelativeDocumentMoniker": "ContenedorDB\\ContenedorDB.csproj",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ContenedorDB\\ContenedorDB.csproj",
+              "RelativeToolTip": "ContenedorDB\\ContenedorDB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-08T21:13:00.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViveroController.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\ViveroController.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Controllers\\ViveroController.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\ViveroController.cs",
+              "RelativeToolTip": "ViveroPrado\\Controllers\\ViveroController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:12:37.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "ViveroPrado\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:11:55.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ViveroPrado\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ViveroPrado\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T21:11:29.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T21:10:16.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListaFactura.cshtml",
+              "DocumentMoniker": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Factura\\ListaFactura.cshtml",
+              "RelativeDocumentMoniker": "ViveroPrado\\Views\\Factura\\ListaFactura.cshtml",
+              "ToolTip": "C:\\Users\\madel\\source\\repos\\ViveroPrado\\ViveroPrado\\Views\\Factura\\ListaFactura.cshtml",
+              "RelativeToolTip": "ViveroPrado\\Views\\Factura\\ListaFactura.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T15:51:24.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
